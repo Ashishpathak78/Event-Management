@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-200 via-gray-300 to-gray-400 font-poppins">
+
+    <header class="bg-gray-800 text-white bg-opacity-90 m-1 mt-2 p-4 rounded-lg shadow-8xl">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+          <h1 class="text-2xl pl-2 font-semibold"><a href="attende-dashboard.html" class="hover:text-gray-600  transition duration-200">Attendee Dashboard</a></h1>
+            <nav class="flex items-center space-x-6">
+                <p class="text-xl font-medium">Attendee Name</p>
+                <a href="/logout" class="hover:text-indigo-200">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto p-8">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Your Registered Events</h2>
+
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-200">
+                <h3 class="text-2xl font-semibold text-gray-800">Tech Conference 2024</h3>
+                <p class="text-gray-600 mt-2">Join us for a full day of tech talks, workshops, and networking opportunities.</p>
+                <p class="text-gray-600 mt-4">Date: January 20, 2024</p>
+                <a href="/unregister/1" class="mt-4 inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">Unregister</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-200">
+                <h3 class="text-2xl font-semibold text-gray-800">Music Festival</h3>
+                <p class="text-gray-600 mt-2">A weekend full of amazing live music performances from your favorite artists.</p>
+                <p class="text-gray-600 mt-4">Date: February 14, 2024</p>
+                <a href="/unregister/2" class="mt-4 inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">Unregister</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-200">
+                <h3 class="text-2xl font-semibold text-gray-800">Food & Wine Expo</h3>
+                <p class="text-gray-600 mt-2">Taste the best dishes and wines from around the world at this exclusive expo.</p>
+                <p class="text-gray-600 mt-4">Date: March 3, 2024</p>
+                <a href="/unregister/3" class="mt-4 inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">Unregister</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
